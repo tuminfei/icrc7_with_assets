@@ -4,6 +4,7 @@
 cargo test
 
 # gzip wasm
+gzip -c wasm/icrc7_with_assets.wasm > wasm/icrc7_with_assets.wasm.gz
 
 # deploy
 
