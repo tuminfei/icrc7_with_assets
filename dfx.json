@@ -1,0 +1,19 @@
+{
+    "canisters": {
+        "icrc7_with_assets": {
+            "type": "custom",
+            "build": [
+                "cargo build --target wasm32-unknown-unknown --release",
+                "ic-wasm -o wasm/icrc7_with_assets.wasm target/wasm32-unknown-unknown/release/icrc7_with_assets.wasm shrink"
+            ],
+            "wasm": "wasm/icrc7_with_assets.wasm.gz",
+            "candid": "icrc7_with_assets.did"
+        }
+    },
+    "defaults": {
+        "build": {
+            "packtool": ""
+        }
+    },
+    "version": 1
+}

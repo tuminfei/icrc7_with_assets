@@ -1,0 +1,6 @@
+.env
+.dfx
+.canister_ids.json
+/target
+
+.DS_Store
