@@ -295,9 +295,9 @@
           <div class="modified">{{showDate(item.modified)}}</div>
           <div class="action">
             <div v-if="item.type==='file'" @click="(e) => e.stopPropagation()">
-              <a :href="item.path" target="_blank"> 预览 </a>
+              <a :href="item.path" target="_blank"> Review </a>
               <div>{{' '}}</div>
-              <a :href="`${item.path}?attachment=`" target="_blank"> 下载 </a>
+              <a :href="`${item.path}?attachment=`" target="_blank"> Download </a>
             </div>
           </div>
         </div>

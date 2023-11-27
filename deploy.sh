@@ -19,7 +19,7 @@ dfx deploy icrc7_with_assets --argument '(record {
   description=opt "ICRC7 Standard Token";
   image=null;    
   supply_cap=null;    
-})'
+})' --mode reinstall
 
 # mint
 

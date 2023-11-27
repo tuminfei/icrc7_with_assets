@@ -95,7 +95,6 @@ where
     })
 }
 
-// 相关方法
 pub fn is_admin() -> Result<(), String> {
     let caller = caller();
     with_state(|s| {
